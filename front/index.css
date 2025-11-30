@@ -8,7 +8,8 @@ body {
     margin: 0;
 }
 
-.login-contanier {
+/* Container principal du login */
+.login-container {
     background-color: white;
     padding: 2rem;
     border-radius: 8px;
@@ -17,6 +18,7 @@ body {
     max-width: 400px;
 }
 
+/* Titre du formulaire */
 .login-header {
     text-align: center;
     margin-bottom: 2rem;
@@ -27,6 +29,11 @@ body {
     margin: 0;
 }
 
+/* Groupes des inputs */
 .form-group {
     margin-bottom: 1.5rem;
+}
+.form-group input {
+    width: 100%;
+    display: block;
 }
