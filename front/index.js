@@ -2,10 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.querySelector('form');
     const emailInput = document.getElementById('email');
     const passwordInput = document.getElementById('password');
-
+  
     loginForm.addEventListener('submit', (e) => {
         e.preventDefault(); // Empêche l'envoi du formulaire par défaut
-
         const email = emailInput.value;
         const password = passwordInput.value;
 
